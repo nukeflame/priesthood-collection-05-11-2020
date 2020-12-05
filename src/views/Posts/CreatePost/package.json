@@ -1,0 +1,6 @@
+{
+  "name": "CreatePost",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CreatePost.js"
+}

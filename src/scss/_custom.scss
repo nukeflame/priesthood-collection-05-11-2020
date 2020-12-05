@@ -1,0 +1,104 @@
+/* / custom css
+   /
+*/
+
+/* search bar */
+$background-color: hsl(222, 13%, 19%);
+$search-bg-color: #242628;
+$icon-color: #00fede;
+$transition: all 0.5s ease;
+
+.head-icons .search-bar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c7c7cd;
+  border-radius: 4px;
+  width: 540px;
+  height: 100%;
+  position: relative;
+  transition: $transition;
+}
+.search-bar .find {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+.search-bar .searchIcon {
+  margin: 8px;
+  margin-right: 5px;
+  flex-shrink: 0;
+  color: #75757a;
+}
+.search-bar .searchIcon i {
+  font-size: 15px;
+}
+.search-bar .search-boxbar {
+  width: 100%;
+  height: 32px;
+  box-shadow: none;
+  background: transparent;
+  color: #242628;
+  padding: 1px 5px;
+  margin-right: 8px;
+  font-family: inherit;
+  line-height: 0px;
+  font-size: 15px;
+  &:focus {
+    outline: none;
+  }
+}
+.search-bar .clearIcon {
+  display: none;
+  margin: 8px;
+  margin-left: 0px;
+  color: #c8ced3;
+}
+.search-bar .clearIcon i {
+  font-size: 15px;
+  color: #c8ced3;
+}
+
+/* header search conatiner */
+.head-icons .sec {
+  top: calc(100% + 1px);
+  display: block;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  width: 540px;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  &:before {
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: #ededed;
+  }
+}
+.head-icons .sec .itm {
+  white-space: pre;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-top: 8px;
+  align-items: center;
+  display: flex;
+  color: #282828;
+  &.active,
+  &:hover {
+    background-color: #ededed;
+    color: inherit;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+.head-icons .sec .itm p {
+  margin: 0;
+  padding: 0;
+}

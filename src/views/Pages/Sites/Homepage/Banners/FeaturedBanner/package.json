@@ -1,0 +1,6 @@
+{
+  "name": "FeaturedBanner",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./FeaturedBanner.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CreatePage",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CreatePage.js"
+}

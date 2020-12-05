@@ -1,0 +1,6 @@
+{
+  "name": "CustomerAccount",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CustomerAccount.js"
+}

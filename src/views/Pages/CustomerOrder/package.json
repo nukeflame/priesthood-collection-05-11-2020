@@ -1,0 +1,6 @@
+{
+  "name": "CustomerOrder",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./CustomerOrder.js"
+}

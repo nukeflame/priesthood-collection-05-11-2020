@@ -1,0 +1,6 @@
+{
+  "name": "OffersList",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OffersList.js"
+}

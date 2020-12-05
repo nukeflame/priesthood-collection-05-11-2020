@@ -1,0 +1,6 @@
+{
+  "name": "ShopCatalog",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ShopCatalog.js"
+}

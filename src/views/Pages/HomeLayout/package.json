@@ -1,0 +1,6 @@
+{
+  "name": "HomeLayout",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HomeLayout.js"
+}

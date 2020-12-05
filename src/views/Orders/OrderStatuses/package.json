@@ -1,0 +1,6 @@
+{
+  "name": "OrderStatuses",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./OrderStatuses.js"
+}

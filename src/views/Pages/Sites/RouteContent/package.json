@@ -1,0 +1,6 @@
+{
+  "name": "RouteContent",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RouteContent.js"
+}
